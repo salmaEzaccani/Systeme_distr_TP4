@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Computer",
+      "price": 5502,
+      "checked": true
+    },
+    {
+      "id": "3",
+      "name": "Smart Phone",
+      "price": 6500,
+      "checked": false
+    },
+    {
+      "id": "4",
+      "name": "Coffee Table",
+      "price": 754,
+      "checked": true
+    },
+    {
+      "id": "6",
+      "name": "Foo",
+      "price": 454545,
+      "checked": false
+    },
+    {
+      "id": "4faa",
+      "name": "SALMA",
+      "price": "445332",
+      "checked": true
+    },
+    {
+      "id": "2208",
+      "name": "COMPUTER",
+      "price": 6459,
+      "checked": true
+    },
+    {
+      "id": "171d",
+      "name": "COMPUTER",
+      "price": 6459,
+      "checked": true
+    }
+  ]
+}

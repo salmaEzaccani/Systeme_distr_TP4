@@ -1,0 +1,22 @@
+  <!--<h1>Hello {{title}}</h1> data binding-->
+
+  <nav class="p-3">
+      <ul class="nav nav-pills">
+        <li *ngFor="let action of actions"><!--  for chaque action de la liste des actions -->
+          <button
+            (click)="setCurrentAction(action)"
+            routerLink="{{action.route}}"
+            [class]="action==currentAction? 'btn btn-success ms-1' : 'btn btn-outline-success ms-1'"
+
+          >                                      <!-- CHAQUE ACTION DEFINIE PAR TITRE ROUTE ET ICON -->
+            {{action.title}}
+            <i class="bi bi-{{action.icon}}"></i>
+          </button>
+        </li>
+      </ul>
+  </nav>
+
+<router-outlet>
+
+</router-outlet>
+<!--  LA VUE-->
